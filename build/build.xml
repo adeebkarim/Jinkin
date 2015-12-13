@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="compile">
+<target name="create">
+<echo>heloo</echo>
+<mkdir dir="bin">
+
+</mkdir>
+</target>
+
+<target name="compile" depends="create">
+<javac destdir="E:\Uni Smstr\jinkiTest\build\bin"  srcdir="E:\Uni Smstr\jinkiTest\src\jinkiTest">
+
+</javac>
+
+</target>
+
+</project>
